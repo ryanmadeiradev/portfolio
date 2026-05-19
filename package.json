@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-frontend-ux-ui",
+  "version": "1.0.0",
+  "description": "Portfólio focado em Desenvolvimento Web, Front-end, UX/UI e Acessibilidade. Estudante de ADS no IFSUL Bagé.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Static site - no build process required'",
+    "preview": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "frontend",
+    "ux-ui",
+    "accessibility",
+    "audibleye",
+    "ads-ifsul",
+    "typescript",
+    "responsive-design"
+  ],
+  "author": "Ryan Madeira",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "https://github.com/ryanmadeiradev",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
