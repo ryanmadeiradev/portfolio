@@ -726,3 +726,81 @@ body {
     margin-right: auto;
     max-width: 90%;       
 }
+
+
+@media (max-width: 992px) {
+    .hero {
+        height: auto; 
+        padding: 140px 0 80px 0; 
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero-text {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .greeting {
+        justify-content: center; 
+    }
+
+    .hero h1 {
+        font-size: 2.6rem; 
+        margin-top: 10px;
+    }
+
+    .hero-description {
+        margin: 0 auto 30px auto; 
+    }
+
+    .profile-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px; 
+    }
+
+    .cta-buttons {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 120px 0 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem; 
+    }
+
+    .typing-text {
+        font-size: 1.3rem; 
+    }
+
+    .profile-wrapper {
+        width: 280px; 
+        height: 280px;
+    }
+
+    .cta-buttons {
+        flex-direction: column; 
+        gap: 15px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .btn {
+        width: 100%; 
+    }
+}
